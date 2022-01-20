@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Base : MonoBehaviour
 {
+    // ABSTRACTION
     public abstract void Act();
 
     public virtual string Name()

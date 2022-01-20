@@ -19,11 +19,14 @@ public class Sphere : Base
         return Random.Range(0.0f, 1.0f);
     }
 
+    // ABSTRACTION
+    // POLYMORPHISM
     public override void Act()
     {
         _renderer.material.color = new Color(rnd(), rnd(), rnd(), 1f);
     }
 
+    // POLYMORPHISM
     public override string Name()
     {
         return "Sphere";
